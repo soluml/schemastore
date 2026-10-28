@@ -1,0 +1,6 @@
+{
+  "name": "pre-style-app",
+  "pre.style": {
+    "include": 42
+  }
+}

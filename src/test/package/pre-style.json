@@ -1,0 +1,11 @@
+{
+  "name": "pre-style-app",
+  "pre.style": {
+    "include": ["app/**/*.tsx"],
+    "libraries": {
+      "@acme/ui": true
+    },
+    "prependFiles": ["app/tokens.css"]
+  },
+  "version": "1.0.0"
+}

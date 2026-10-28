@@ -220,6 +220,7 @@
     "partial-fusion-pack-metadata.json", // minecraft-pack-mcmeta.json[fusion]
     "partial-fusion-texture-metadata.json", // minecraft-texture-mcmeta.json[fusion]
     "partial-taskipy.json", // pyproject.json[tool.taskipy]
+    "partial-pre-style.json", // package.json[pre.style]
     "poetry.json", // backwards-compat
     "setuptools.json", // backwards-compat
     "scikit-build.json", // backwards-compat
@@ -1177,7 +1178,8 @@
         "madge.json",
         "nodemon.json",
         "base.json",
-        "quikrun.json"
+        "quikrun.json",
+        "partial-pre-style.json"
       ],
       "unknownFormat": ["<app> <your args>"],
       "unknownKeywords": ["exec", "tsType"]
@@ -1196,7 +1198,8 @@
         "madge.json",
         "nodemon.json",
         "base.json",
-        "quikrun.json"
+        "quikrun.json",
+        "partial-pre-style.json"
       ],
       "unknownKeywords": ["exec", "tsType"]
     },
@@ -1214,7 +1217,8 @@
         "madge.json",
         "nodemon.json",
         "base.json",
-        "quikrun.json"
+        "quikrun.json",
+        "partial-pre-style.json"
       ],
       "unknownKeywords": ["exec", "tsType"]
     },

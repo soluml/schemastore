@@ -1,0 +1,17 @@
+{
+  "exclude": "src/**/*.test.ts",
+  "include": ["src/**/*.{ts,tsx}"],
+  "libraries": {
+    "@acme/icons": {
+      "include": "dist/**/*.js",
+      "prependFiles": ["dist/tokens.css"]
+    },
+    "@acme/legacy": false,
+    "@acme/ui": true
+  },
+  "prependFiles": {
+    "css": ["src/styles/tokens.css"],
+    "scss": ["src/styles/mixins.scss"]
+  },
+  "quirksMode": false
+}
